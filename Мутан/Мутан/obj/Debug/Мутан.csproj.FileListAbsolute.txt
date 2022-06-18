@@ -1,0 +1,12 @@
+D:\HSHSHSHSHSHSH\Мутан\Мутан\bin\Debug\Мутан.exe.config
+D:\HSHSHSHSHSHSH\Мутан\Мутан\bin\Debug\Мутан.exe
+D:\HSHSHSHSHSHSH\Мутан\Мутан\bin\Debug\Мутан.pdb
+D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.Form1.resources
+D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.Properties.Resources.resources
+D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.csproj.GenerateResource.cache
+D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.csproj.CoreCompileInputs.cache
+D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.exe
+D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.pdb
+D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.Form2.resources
+D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.Form3.resources
+D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.csproj.AssemblyReference.cache
