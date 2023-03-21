@@ -27,7 +27,7 @@ namespace Мутан
         public double D;
         public double D2;
         public double X_Sr;
-        public Double S;
+        public double S;
         #endregion
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -47,7 +47,7 @@ namespace Мутан
             }
             return list.ToArray();
         }
-        static void quickSort(double[] a, int l, int r)
+        public void quickSort(double[] a, int l, int r)
         {
             double temp;
             double x = a[l + (r - l) / 2];
@@ -152,6 +152,7 @@ namespace Мутан
             }
             textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 3);//удаление лишнего плюса
             textBox1.Text += ") = " + String.Format("{0:0.####}", sum / (listArray.Length));
+
             X_Sr = Convert.ToDouble(String.Format("{0:0.####}", sum / (listArray.Length)));
         }
         public void CalcStep()
@@ -295,7 +296,7 @@ namespace Мутан
             }
             for (int i = 0; i < K; i++)
             {
-                if (i==0)
+                if (i == 0)
                 {
                     t = min - D2;
                     SimilarCount = FindSimilar(t, t + step_H);
