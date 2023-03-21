@@ -16,18 +16,18 @@ namespace Мутан
         }
         OpenFileDialog openFileDialog1;
         #region Параметры
-        double[] listArray;
-        double[] StatListArray;
-        List<double> GroupListArray;
-        double min;
-        double max;
-        double step_H;
-        double R;
-        int K;
-        double D;
-        double D2;
-        double X_Sr;
-        Double S;
+        public double[] listArray;
+        public double[] StatListArray;
+        public List<double> GroupListArray;
+        public double min;
+        public double max;
+        public double step_H;
+        public double R;
+        public int K;
+        public double D;
+        public double D2;
+        public double X_Sr;
+        public Double S;
         #endregion
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -97,7 +97,7 @@ namespace Мутан
             }
             StatListArray = tmpList.ToArray();
         }
-        double GetMin(double[] Array)
+        public double GetMin(double[] Array)
         {
             double min = Array[0];
             int minIndex = 0;
@@ -111,7 +111,7 @@ namespace Мутан
             }
             return Array[minIndex];
         }
-        double GetMax(double[] Array)
+        public double GetMax(double[] Array)
         {
             double max = Array[0];
             int minIndex = 0;
@@ -140,7 +140,7 @@ namespace Мутан
             label3d2.Text = "d/2 = " + D + "/2 = " + D2;
         }
         #region CalcParams
-        void Calc_X̅()//расчет среднего значения
+        public void Calc_X̅()//расчет среднего значения
         {
             textBox1.Text = "";
             textBox1.Text = "X̅ = 1/" + (listArray.Length).ToString() + " * (";
@@ -154,27 +154,27 @@ namespace Мутан
             textBox1.Text += ") = " + String.Format("{0:0.####}", sum / (listArray.Length));
             X_Sr = Convert.ToDouble(String.Format("{0:0.####}", sum / (listArray.Length)));
         }
-        void CalcStep()
+        public void CalcStep()
         {
             step_H = Math.Round(R / K, 1);
         }
-        void CalcR()
+        public void CalcR()
         {
             R = max - min;
         }
-        void CalcK()
+        public void CalcK()
         {
             K = Convert.ToInt32(Math.Ceiling(1 + 3.322 * Math.Log10(listArray.Length)));
         }
-        void CalcD()
+        public void CalcD()
         {
             D = Math.Round(step_H * K - R, 1);
         }
-        void CalcD2()
+        public void CalcD2()
         {
             D2 = Math.Round(D / 2,1);
         }
-        void Calc_S()
+        public void Calc_S()
         {
             S = 0;
             textBox1.Text += "\r\nВыборочное среднее квадратическое\r\n";
@@ -191,7 +191,7 @@ namespace Мутан
             textBox1.Text += "\r\nS = " + String.Format("{0:0.####}",Math.Sqrt(S));
             S = Convert.ToDouble(String.Format("{0:0.####}", Math.Sqrt(S)));
         }
-        void Calc_Desp_to_grouplist()
+        public void Calc_Desp_to_grouplist()
         {
             double summ = 0;
             double sr = 0;
@@ -217,7 +217,7 @@ namespace Мутан
             sr = Convert.ToDouble(String.Format("{0:0.####}", summ /= (listArray.Length - 1)));
             textBox1.Text += ") / " + (listArray.Length-1).ToString() + " = " + String.Format("{0:0.####}", sr);
         }
-        void Sigma_Check()
+        public void Sigma_Check()
         {
             textBox1.Text += "\r\nПравило трех сигм\r\n";
             //не не буду

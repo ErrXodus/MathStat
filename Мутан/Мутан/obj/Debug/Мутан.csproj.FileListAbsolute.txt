@@ -10,3 +10,15 @@ D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.pdb
 D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.Form2.resources
 D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.Form3.resources
 D:\HSHSHSHSHSHSH\Мутан\Мутан\obj\Debug\Мутан.csproj.AssemblyReference.cache
+E:\HSHSHSHSHSHSH\MathStat\Мутан\Мутан\bin\Debug\Мутан.exe.config
+E:\HSHSHSHSHSHSH\MathStat\Мутан\Мутан\bin\Debug\Мутан.exe
+E:\HSHSHSHSHSHSH\MathStat\Мутан\Мутан\bin\Debug\Мутан.pdb
+E:\HSHSHSHSHSHSH\MathStat\Мутан\Мутан\obj\Debug\Мутан.csproj.AssemblyReference.cache
+E:\HSHSHSHSHSHSH\MathStat\Мутан\Мутан\obj\Debug\Мутан.Form1.resources
+E:\HSHSHSHSHSHSH\MathStat\Мутан\Мутан\obj\Debug\Мутан.Form2.resources
+E:\HSHSHSHSHSHSH\MathStat\Мутан\Мутан\obj\Debug\Мутан.Form3.resources
+E:\HSHSHSHSHSHSH\MathStat\Мутан\Мутан\obj\Debug\Мутан.Properties.Resources.resources
+E:\HSHSHSHSHSHSH\MathStat\Мутан\Мутан\obj\Debug\Мутан.csproj.GenerateResource.cache
+E:\HSHSHSHSHSHSH\MathStat\Мутан\Мутан\obj\Debug\Мутан.csproj.CoreCompileInputs.cache
+E:\HSHSHSHSHSHSH\MathStat\Мутан\Мутан\obj\Debug\Мутан.exe
+E:\HSHSHSHSHSHSH\MathStat\Мутан\Мутан\obj\Debug\Мутан.pdb
